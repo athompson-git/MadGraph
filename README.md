@@ -96,7 +96,7 @@ LHEF (Les-Houches Event Format) is what we call a "generator-level" (GEN-level) 
 
 Each event looks like the one below, with columns
 
-| PID  | Status  | D1  |  D2 |   |   | E  |  Px |  Py | Pz  | Mass  | | Spin  |
+| PID  | Status  | Mother1  |  Mother2 | Color Flow  | Color Flow  | E  |  Px |  Py | Pz  | Mass  | | Spin  |
 
 ```
 <event>
