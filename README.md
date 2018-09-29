@@ -2,13 +2,10 @@
 
 
 ## Prerequisites
-ROOT
-gcc 4.8 or later
-Python 2.7 or later
+* ROOT (install from here: [https://root.cern.ch/building-root](https://root.cern.ch/building-root))
+* gcc 4.8 or later
+* Python 2.7 or later
 
-
-If you don’t already have it installed, you can get and build ROOT from here:
-https://root.cern.ch/building-root
 
 This guide will help you install the following programs:
 * MadGraph 5
@@ -57,14 +54,14 @@ MG5_aMC> exit
 All the programs you installed should now exist within the `/MG5_aMC_vX_X_X/HEPTools/` folder and Delphes will be installed in `/MG5_aMC_vX_X_X/Delphes/`.
 
 At this stage I find it useful to add an alias for MG5 into your .bashrc. Something like
+
 `alias mg5='/home/<yourname/MG5_aMC_v2_6_3/bin/mg5_aMC`
 
-## Tutorial
+## Tutorial (Optional)
 Go through the tutorial built-in to MG5. When you run MG5 you can just type
 ```MG5_aMC> tutorial```
 
-For this step, the goal is to learn how to put in a particle process and generate a data sample with it. I recommend following along with steps 3 and 4 in this doc: http://www.phys.ufl.edu/~matchev/StandardModel/mg5_tutorial.pdf
-(but where they say "./bin/mg5" instead use "./bin/mg5_aMC". The former is deprecated.
+For this step, the goal is to learn how to put in a particle process and generate a data sample with it.
 
 
 ## Installing a Model
