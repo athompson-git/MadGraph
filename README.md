@@ -18,7 +18,7 @@ This guide will help you install the following programs:
 * * etc
 * Delphes
 
-## MadGraph Installation
+## MadGraph + Pythia + Delphes Installation
 (1) Take the the most recent installation file for MG5 from here https://launchpad.net/mg5amcnlo. For example,
 
 ```
