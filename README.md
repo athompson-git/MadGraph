@@ -55,7 +55,9 @@ All the programs you installed should now exist within the `/MG5_aMC_vX_X_X/HEPT
 
 At this stage I find it useful to add an alias for MG5 into your .bashrc. Something like
 
-`alias mg5='/home/<yourname/MG5_aMC_v2_6_3/bin/mg5_aMC`
+`alias mg5='<your_madgraph_installation_directory>/MG5_aMC_vX_X_X/bin/mg5_aMC`
+
+
 
 ## Tutorial (Optional)
 Go through the tutorial built-in to MG5. When you run MG5 you can just type
