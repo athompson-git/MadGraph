@@ -89,7 +89,7 @@ MG5_aMC> import model BaryogenX2N1Maj_withLeft
 
 
 
-# Writing Macros to Analyze Data
+# Writing Macros to Analyze Data **Work in Progress**
 I will outline two main MC formats that are commonly analyzed in a prototypical pheno project; LHEF and Delphes. 
 ### LHEF Event Format
 LHEF (Les-Houches Event Format) is what we call a "generator-level" (GEN-level) event class that, in the case of MG5, contains kinematic information for a columnated list of particles in each event that corresponds to the direct output from MadEvent, *before they have decayed into showers and jets of particles and before detector-level reconstruction*. Essentially, a GEN-level event has the most primordial information about the event and can be cleanly represented by the Feynman diagrams of the model; for this reason it is sometimes called the "truth-level". GEN-level isn't unique to the LHEF format (Pythia also keeps GEN-level data in its output), but sometimes we want to analyze LHEF output directly from MadGraph to see a clean picture of the phenomenology before the kinematics have to be resolved in the reconstruction level. This will require knowledge of how to write a ROOT macro that interfaces with the LHEF event class.
